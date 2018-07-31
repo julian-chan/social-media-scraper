@@ -10,5 +10,6 @@ This tool is compatible with Python 3.6+.
 * [bosonnlp](http://bosonnlp-py.readthedocs.io)
 * [weibo-scraper](https://github.com/Xarrow/weibo-scraper)
 
-To install a missing 'package', run 
-'pip install package'
+To install a missing `package`, run 
+
+```pip install package```
