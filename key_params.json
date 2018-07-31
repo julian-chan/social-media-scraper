@@ -1,0 +1,64 @@
+{
+  "keys":
+  {
+    "Facebook":
+    {
+      "access_token": "EAADDgZAzRDqgBAFBWbg0qudQoXcli4CZCEKgwwabHW4ozfuDTOnOVUnuxYRn6JC7anaiVvAy8HS9sJZCPg8l9MOWIcZCZC3j5aZCg87ZCnzFZBjmkjxvsEZCs0W2RAw022PHLOx26ZBExz7laHuvEdPlYTi8D7IfMEg8NK36rNdTDZB4ZBOuUHumF5yJI6S80Qae4M7vEzBFqBAvOQZDZD"
+    },
+
+    "LinkedIn":
+    {
+      "consumer_key": "81fd8k60jrhkgh",
+      "consumer_secret": "Ng0GqZUxZ5Uiokul",
+      "code": "AQQrGe32NZ8mtP1XtcepXfrjEtKXsCcFILnl_CQHC2sgALY8Nsk57dobYR3uHGn-SEulIV8D91Y2GwFDYQR-DR8Ro8ISK5Ul03GoDc7LlyeA3hxnNq3LDcaZcdBuQpI_fezyRNMcO-EtwEPR44oLIKAlNJmr2TT0uEM9V8K4",
+      "access_token": "AQUN1M6YFATGN5YA4Sf-29yO8-lEnopQuXHxjkarjtP9nVFcALvszYEkBptypCCMDGFGE3W-g40hWUxYkVPIBOV77-ZDr31d2wCnV0aClk0m3a5aexGL18ErxltXW80DrZ-e7w2HWI5iPvMNgbsTX6ZUtvQibRM3ruhR5W9axTF6bT63sBGAZXigZvzpG3ZQD_eoW5W6a2f37uVz8_G_Ww65pcnQ5DJi8hJNHLkcuaJ2xelcy3newLMRzap6OZS8GWZFA1X-s_U8l9IIEB-HeTZseuVq7kXZWKrYjEwxB1d6wb0EjD0B0PjTAMr04i-cyOk2-KikfRTuybFMxOB5pEWzsygWKg"
+    },
+
+    "Twitter":
+    {
+      "api_key": "cyQIddLsnTJ0BODfz9SQP89WM",
+      "api_secret": "USiEWag5u2JRdthSOr0pokAhdJkBkehvpehZPxt91FsP76TLIo",
+      "access_token": "3187366976-WatkeZEaOJZDVf3M3GASgm7k31MWfdPLWisPL3W",
+      "access_token_secret": "80NrkV25KF0ItNOgiudeRFwQd4DNLlT8GZJMNFoTPFDwH"
+    },
+
+    "Instagram":
+    {
+      "username": "",
+      "password": ""
+    }
+  },
+
+  "parameters":
+  {
+    "Facebook":
+    {
+      "page_name": "squaremarketig",
+      "since": "2017-01-01"
+    },
+
+    "Instagram":
+    {
+      "username": "hktigersugar"
+    },
+
+    "LinkedIn":
+    {
+      "company_id": "14405270"
+    },
+
+    "Twitter": {
+      "handle": "hktdc"
+    },
+
+    "Weibo":
+    {
+      "username": "香港贸发局"
+    },
+
+    "main":
+    {
+      "company_folder": "sample"
+    }
+  }
+}

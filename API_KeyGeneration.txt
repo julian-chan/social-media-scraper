@@ -1,0 +1,107 @@
+========================================================================================================================
+
+Twitter Authentication:
+    1. Go to https://apps.twitter.com
+    2. Log in
+        * If you don't have an app already, click "Create New App" and proceed to step 3
+        * Otherwise, select your app and skip to step 4
+    3. Fill out the information and click "Create your Twitter application"
+    4. Click on the "Keys and Access Tokens" tab
+    5. Copy down the "Consumer Key (API Key)" and "Consumer Secret (API Secret)"
+    6. Scroll down to "Your Access Token"
+        * If you don't already have an access token, click "Create my access token"
+    7. Copy down the "Access Token" and "Access Token Secret"
+
+    For access to the Twitter API, you will need:
+        - Consumer Key (API Key)
+        - Consumer Secret (API Secret)
+        - Access Token
+        - Access Token Secret
+
+    For more information, see https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html
+
+========================================================================================================================
+
+Facebook Authentication:
+    1. Go to https://developers.facebook.com/apps/
+    2. Log in
+        * If you don't have an app already, click "Create New App" and proceed to step 3
+        * Otherwise, skip to step 5
+    3. In the top right corner, click the green button called "Add a New App"
+    4. Fill in the display name in the pop-up window and click "Create App ID"
+    5. In the left navigation bar, go to Settings > Basic
+    6. Copy down the "App ID" and "App Secret" (you might need to click "Show" to get this to appear)
+    7. Go to https://developers.facebook.com/tools/explorer/
+    8. In the top right corner, make sure that you select the app you just created in the "Application" dropdown menu
+    9. Below that, click "Get Token" > "Get User Access Token"
+        * In the "Select Permissions" dialog, MAKE SURE TO SELECT "read_insights" in the Other section, and feel free to
+          select anything else
+    10. Click "Get Access Token" and then click "Continue as (your name)" in the pop-up window and then click "OK" when
+        Facebook asks to access your Page and App Insights
+    11. Copy down the "Access Token" that is generated
+
+    For access to the Facebook API, you will need:
+        - Access Token
+
+    For more information, see https://developers.facebook.com/docs/facebook-login/access-tokens/
+
+========================================================================================================================
+
+LinkedIn Authentication:
+    1. Go to https://www.linkedin.com/secure/developer
+    2. Log in
+        * If you don't have an app already, click "Create Application" and proceed to step 3
+        * Otherwise, select your app and skip to step 4
+    3. Fill out the information and click "Submit"
+    4. Copy down the "Client ID" and "Client Secret"
+    5. Under "Default Application Permissions", select:
+        - r_basicprofile
+        - r_emailaddress
+        - rw_company_admin
+    6. Under "OAuth 2.0" > "Authorized Redirect URLs", enter "https://jos.com" and click "Add"
+    7. Click "Update" (MAKE SURE TO DO THIS)
+    8. Copy the below link into a web browser, replacing:
+        - {client_id} with the "Client ID" you copied in step 4
+        - {redirect_uri} with "https://jos.com"
+
+       https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id={client_id}&redirect_uri={redirect_uri}&state=AbCdEf123456
+
+    9. Press "Enter" or "Return" to go to that page
+    10. In the LinkedIn permissions window, click "Allow" and you should be redirected to the JOS homepage
+    11. Examine the URL. It should look something like:
+
+        https://jos.com/?code={some super long string of letters and numbers}&state=AbCdEf123456
+
+    12. Copy the {some super long string of letters and numbers}
+    13. Copy the below link into a web browser, replacing:
+        - {code} with {some super long string of letters and numbers} from step 11
+        - {redirect_uri} with https://jos.com
+        - {client_id} with the "Client ID" you copied in step 4
+        - {client_secret} with the "Client Secret" you copied in step 4
+
+        https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&code={code}&redirect_uri={redirect_uri}&client_id={client_id}&client_secret={client_secret}
+
+    14. Press "Enter" or "Return" to go to that page
+    15. There should be a JSON-like object that is displayed in your browser window, something like:
+
+        {"access_token": {access_token},
+         "expires_in": {seconds_until_expiration}}
+
+    16. Copy down the {access_token}
+
+    For access to the LinkedIn API, you will need:
+        - Access Token
+
+    For more information, see https://developer.linkedin.com/docs/oauth2
+
+========================================================================================================================
+
+Instagram Authentication:
+    Not needed
+
+========================================================================================================================
+
+Weibo Authentication:
+    Not needed
+
+========================================================================================================================
