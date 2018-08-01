@@ -1,5 +1,5 @@
 # social-media-scraper
-Working as of August 1, 2018 at 3:02pm.
+Working as of August 1, 2018.
 
 This tool scrapes public Instagram, Weibo, and Twitter data as well as Facebook and LinkedIn page data of pages that you are an admin of.
 
