@@ -30,6 +30,7 @@ Once you get these tokens, make sure to paste them into key_params.json.
 In addition, input the names of the Facebook and LinkedIn pages and Instagram, Twitter, and Weibo users into key_params.json.
 
 Once you have acquired the necessary access tokens and parameters in key_params.json, run
+
 ```python run.py```
 
 A status log will be output {date}_{time}_log.txt
